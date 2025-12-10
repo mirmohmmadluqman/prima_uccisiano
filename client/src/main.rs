@@ -42,8 +42,8 @@ rpc.poll_for_signature( &airdrop_sig).expect("failed to finalize airdrop");
     // -------------------------------
     // Program ID (replace with your program)
     // -------------------------------
-    let program_id = Pubkey::from_str("3FnwV1499VA8vjSmwcWhQUsqtk8zhX72YXueS2yFRFRy").unwrap();
-    // 3FnwV1499VA8vjSmwcWhQUsqtk8zhX72YXueS2yFRFRy ::: devent address of program
+    let program_id = Pubkey::from_str("").unwrap(); //@dev ::: add your program_id here
+
 
 let ix = Instruction {
     program_id,
