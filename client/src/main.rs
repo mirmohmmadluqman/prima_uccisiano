@@ -42,7 +42,7 @@ fn main() {
         .request_airdrop(&payer.pubkey(), 1_000_000_000) // 1 SOL = 1_000_000_000 lamports
         .expect("Airdrop failed");
     rpc.confirm_transaction(&sig)
-        .expect("Failed to confirm airdrop");
+        .expect("Failed to confirm airdrop");   
     println!("Airdropped 1 SOL to new payer");
 
     // -------------------------------
